@@ -122,3 +122,9 @@ puis dans le répertoire du projet :
 
 8. GITBASH : 
 // git add . (envoi tous les fichiers)
+// git commit -m "Commit initial" (1er commit)
+// git remote add origin https://github.com/guigui5122/garagephp.git
+// git branch -M main
+// git push -u origin main
+
+
