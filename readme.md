@@ -23,8 +23,8 @@ SESSION_LIFETIME = 7200
 MAIL_MAILER = smtp
 MAIL_HOST = smtp.gmail.com
 MAIL_PORT = 587
-MAIL_USERNAME = gpelloin@gmail.com 
-MAIL_PASSWORD = *Cy4us@Manu9@Gu1gu1$
+MAIL_USERNAME = mon adresse mail 
+MAIL_PASSWORD = mon mot de passe
 MAIL_ENCRYPTION = null
 MAIL_FROM_NAME = "${APP_NAME : Mon Garage}" // si le client envoi un mail c'est l'app qui gère
 
@@ -112,8 +112,8 @@ Par défaut, Apache autorise l'accès aux fichiers -->
     // GIT CLONE https://github.com/Guigui5122/garagephp.git garage
 puis dans le répertoire du projet : 
     // GIT INIT (créé un dossier .git dans le projet)
-    // git config user.name "Guigui5122"
-    // git config user.email "gpelloin@gmail.com"
+    // git config user.name "mon user name github"
+    // git config user.email "mon email"
 
 
 
@@ -127,4 +127,9 @@ puis dans le répertoire du projet :
 // git branch -M main
 // git push -u origin main
 
+9. Création d'un dossier (racine) .github
+    -> puis sous dossier : Workflows
+      ->   puis un fichier main.yml
 
+      -> git checkout -b dev (création de la branche DEV)
+      Dans le fichier main.yml, on configure le CI (Continous Integration)
