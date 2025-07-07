@@ -137,8 +137,15 @@ puis dans le répertoire du projet :
       -> Puis on push sur git pour avoir le suivi Github Actions, vu du workflows !
 
 10. Création du fichier composer.json
-11. Composer install
+11. Composer install (création du composer.lock, dossier VENDOR, etc...)
 12. Création du dossier CONFIG /
         puis du fichier config.php
 
-        
+---        
+⚠️erreur sur github :
+
+All checks have failed
+1 failing check
+
+CI garagephp / build (push) Failing after 15s
+---
