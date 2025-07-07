@@ -133,3 +133,12 @@ puis dans le répertoire du projet :
 
       -> git checkout -b dev (création de la branche DEV)
       Dans le fichier main.yml, on configure le CI (Continous Integration)
+
+      -> Puis on push sur git pour avoir le suivi Github Actions, vu du workflows !
+
+10. Création du fichier composer.json
+11. Composer install
+12. Création du dossier CONFIG /
+        puis du fichier config.php
+
+        
