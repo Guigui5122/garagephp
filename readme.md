@@ -111,8 +111,8 @@ Par défaut, Apache autorise l'accès aux fichiers -->
 6. GITBASH :
     // GIT CLONE https://github.com/Guigui5122/garagephp.git garage
 puis dans le répertoire du projet : 
-    // GIT INIT (créé un dossier .git dans le projet)
-    // git config user.name "mon user name github"
+    // GIT INIT (créé un dossier .git dans le projet) // en local
+    // git config user.name "mon user name github" 
     // git config user.email "mon email"
 
 
@@ -138,14 +138,9 @@ puis dans le répertoire du projet :
 
 10. Création du fichier composer.json
 11. Composer install (création du composer.lock, dossier VENDOR, etc...)
-12. Création du dossier CONFIG /
+12. Création du dossier CONFIG (manuelle - voir commentaire) || ou version vlucas/
         puis du fichier config.php
+ -> 
 
----        
-⚠️erreur sur github :
-
-All checks have failed
-1 failing check
-
-CI garagephp / build (push) Failing after 15s
----
+ 13. Création du fichier Database.php (dans /Config)
+    sprintf construit le DataSourceName ($dsn)
