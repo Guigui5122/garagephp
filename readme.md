@@ -142,5 +142,10 @@ puis dans le répertoire du projet :
         puis du fichier config.php
  -> 
 
- 13. Création du fichier Database.php (dans /Config)
+13. Création du fichier Database.php (dans /Config)
     sprintf construit le DataSourceName ($dsn)
+
+14. Créer le dossier SQL / Fichier garagephp.sql
+15. Créer le script SQL pour la bdd, les tables
+    > on insère un 'user' qui sera 'Admin'
+
