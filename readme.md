@@ -149,3 +149,7 @@ puis dans le répertoire du projet :
 15. Créer le script SQL pour la bdd, les tables
     > on insère un 'user' qui sera 'Admin'
 
+16. Créer un dossier SRC/Models/ et les 
+fichiers :
+- BaseModel.php
+- Users.php

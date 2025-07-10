@@ -35,7 +35,7 @@ class User extends BaseModel
 
 
     // Setters avec validation (on utilise des methodes qui 'set' les différentes propriétes, C'est plus Secure !!!)
-    
+
     public function setUsername(string $username): self
     {
         return $this;
@@ -52,6 +52,4 @@ class User extends BaseModel
     {
         return $this;
     }
-
-
 }
