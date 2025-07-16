@@ -153,3 +153,9 @@ puis dans le répertoire du projet :
 fichiers :
 - BaseModel.php
 - Users.php
+
+17. Création du fichier .env.exemple
+18. Création du fichier : phpunit.xml.dist
+19. Création des fichiers Docker-compose.yml, et Dockerfile
+
+
