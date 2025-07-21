@@ -57,7 +57,9 @@ class Config{
 
     public static function isDebug(): bool{
         return self::get('APP_DEBUG', 'false') === 'true';
-    }*/
+    }
+*/
+
 
     /**
      * @param string $path le chemin vers le dossier contenant le fichier '.env'
