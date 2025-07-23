@@ -1,6 +1,6 @@
 # Application GaragePHP (projet fromscratch de Mr LOHEZ Christian - Formation STUDI)
 
-## Détails de la cration du projet : 
+## Détails de la création du projet : 
 
 1. Création du fichier d'environnement (secret) .ENV :
 
@@ -17,7 +17,6 @@ puis dans le répertoire du projet :
     // GIT INIT (créé un dossier .git dans le projet) // en local
     // git config user.name "mon user name github" 
     // git config user.email "mon email"
-
 
 7. Création du fichier .gitignore à la racine du projet (voir fichier)
     -> Empêche de transmettre sur Git les fichiers sensibles .env / logs / dist / docker / bdd / tests
