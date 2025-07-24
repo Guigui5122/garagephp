@@ -2,6 +2,7 @@
 
 namespace App\Config;
 
+// import des classes PDO et PDOException pour gérer la base de données MySql avec PHP
 use PDO;
 use PDOException;
 
@@ -26,10 +27,16 @@ class Database
     {
 
         // si l'instance n'a pas été créée
+        // self:: permet d'accéder à la méthode statique défini dans cette même classe
         if (self::$instance === null) {
 
             // On construit le DSN (Data Source Name) avec les infos du fichier .env !
-            $dsn = sprintf("mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4", Config::get('DB_HOST'), Config::get('DB_PORT', '3306'), Config::get('DB_NAME'));
+            $dsn = sprintf(
+                "mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4",
+                Config::get('DB_HOST'),
+                Config::get('DB_PORT', '3306'),
+                Config::get('DB_NAME')
+            );
 
             $options = [
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION, // lance des exceptions en cas d'erreur SQL
@@ -40,6 +47,8 @@ class Database
 
                 // On créer l'instance de PDO et on la stock
                 self::$instance = new PDO($dsn, Config::get('DB_USER'), Config::get('DB_PASSWORD'), $options);
+
+                // gestion des erreurs
             } catch (PDOException $e) {
                 die("Erreur de connexion à la base de données : " . $e->getMessage());
             }

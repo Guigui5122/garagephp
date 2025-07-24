@@ -66,3 +66,19 @@ fichiers :
 21. Installer les dépendances "composer require --dev phpunit/phpunit"
 
 22. Création du fichier index.php
+
+23. Conception des Models (dossier src/Models)
+
+    - Création de la class BaseModel.php
+    - Création de la class car.php
+    - Création de la class user.php   
+    
+
+24. Conception des Controllers (dossier src/Controllers)
+    - Création de la class BaseController.php
+    - Création de la class HomeController.php
+    - Création de la class AuthController.php
+ 
+
+
+✅Fichier court et séparer les responsabilités
