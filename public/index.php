@@ -27,6 +27,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r){
     $r->addRoute('GET', '/cars', [App\Controllers\CarController::class, 'index']); //afficher les voitures
 });
 
+
 // Traitement de la requête
 
 // Récupérer la méthode HTTP (GET / POST/ PUT/ PATCH) et l'URI (/login, /car/1, etc...)

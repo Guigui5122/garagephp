@@ -72,6 +72,7 @@ class User extends BaseModel
         return $this;
     }
 
+// Méthodes 
 /**
  * Sauvegarde de l'utilisateur en BDD
  *
