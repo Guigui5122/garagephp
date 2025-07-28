@@ -78,7 +78,8 @@ fichiers :
     - Création de la class BaseController.php
     - Création de la class HomeController.php
     - Création de la class AuthController.php
+    - Création de la class CarController.php
  
-
+25. Dossier Security / Validator.php
 
 ✅Fichier court et séparer les responsabilités
