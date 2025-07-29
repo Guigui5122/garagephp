@@ -85,5 +85,4 @@ class Validator
         }
         return $sanitized;
     }
-
 }
